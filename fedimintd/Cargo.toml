@@ -13,4 +13,7 @@ path = "src/fedimintd.rs"
 anyhow = "1.0.66"
 fedimintd = { workspace = true }
 tokio = { version = "1.25.0", features = ["full", "tracing"] }
-fedimint-dummy-server = { path = "../fedimint-dummy-server" }
+nostrmint-common = { path = "../modules/nostrmint-common" }
+nostrmint-server = { path = "../modules/nostrmint-server" }
+schnorr_fun = { version = "0.9.1", features = ["serde", "bincode"] }
+sha2 = "0.10"

@@ -2,9 +2,9 @@
 members = [
     "fedimintd",
     "fedimint-cli",
-    "fedimint-dummy-common",
-    "fedimint-dummy-client",
-    "fedimint-dummy-server",
+    "nostrmint-common",
+    "nostrmint-client",
+    "nostrmint-server",
     "tests",
 ]
 resolver = "2"
